@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(2, 2, 32);
+    box-sizing: border-box;
+}
+h1{
+    color: crimson;
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+.title{
+    color: #ff6363;
+    font-weight: 500;
+    font-size: 120px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    
+}
+#inputField{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    color:  brown;
+   
+    
+}
+#addToDo{
+    width: 50px;
+    height: 46px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: crimson;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+#add:hover{
+    background: rgb(63, 16, 16);
+}
+.remove_btn
+{
+    margin-top: 35px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ff6363;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    height: 50px;
+    width:50px;
+    cursor: pointer;
+}
+
+.remove_btn:hover{
+    background: #ff0123;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.button_edit
+{
+    margin-top: 35px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ff6363;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 625px;
+    justify-content: right;
+    border: none;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    height: 55px;
+    width:100px;
+    cursor: pointer;
+}
+
+.button_edit:hover{
+    background: #06572e;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.to-dos{
+    
+    margin-top: 25px;
+}
+
+
+#toDoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.paragraph-styling{
+    color: white;
+    margin: 0.5em;
+    font-size: 25px;
+    cursor: pointer;
+    flex-direction: column;
+    
+}
